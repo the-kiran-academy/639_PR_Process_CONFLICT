@@ -408,6 +408,7 @@ public class Operation {
 	}
 
 	public static void secondLargest() {
+
 		
 		 int[] numbers = {12, 35, 1, 10, 34, 1};
 		 
@@ -428,6 +429,7 @@ public class Operation {
 	        } else {
 	            System.out.println("The second largest number is: " + secondLargest);
 	        }
+
 	}
 
 	public static void compareArrays() {
