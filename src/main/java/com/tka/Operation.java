@@ -391,7 +391,7 @@ public class Operation {
 
 	public static void printPattern() {
 		
-		System.out.print("Enter the number of rows for the pattern: ");
+		System.out.print("Enter the number of rows for the pattern:- ");
 		int rows = scanner.nextInt();
 
 		for (int i = 1; i <= rows; i++) {
