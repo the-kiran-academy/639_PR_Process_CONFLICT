@@ -390,7 +390,18 @@ public class Operation {
 	}
 
 	public static void printPattern() {
+		
+		System.out.print("Enter the number of rows for the pattern:- ");
+		int rows = scanner.nextInt();
 
+		for (int i = 1; i <= rows; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+		System.out.println("-------------------------------------------------");
 	}
 
 	public static void harshadNumber() {
