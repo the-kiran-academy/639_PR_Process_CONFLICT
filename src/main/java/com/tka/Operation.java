@@ -408,6 +408,25 @@ public class Operation {
 	}
 
 	public static void secondLargest() {
+		System.out.print("Enter the size of the array: ");
+		int n = scanner.nextInt();
+		int[] arr = new int[n];
+
+		System.out.println("Enter " + n + " elements:");
+		for (int i = 0; i < n; i++) {
+			arr[i] = scanner.nextInt();
+		}
+
+		Arrays.sort(arr);
+
+		if (n < 2) {
+			System.out.println("Array does not have enough elements to find the second largest.");
+		} else {
+			System.out.println("Second largest element is: " + arr[n - 2]);
+		}
+
+		System.out.println("-------------------------------------------------");
+		
 	}
 
 	public static void compareArrays() {
